@@ -105,7 +105,7 @@ nav li{
 
 /*Estilização da sessão NOSSO ESTABELECIMENTO*/
 .mapaGeral{
-    background: linear-gradient(white, #071A3D); /*Permite fazer o GRADIENTE*/
+    background: linear-gradient(white, white, white, #071a3d41); /*Permite fazer o GRADIENTE*/
 }
 
 .mapaGeral p{
@@ -116,3 +116,48 @@ nav li{
     margin-left: 25%;
 }
 
+/*Estilização da sessão BENEFICIOS*/
+.Benefícios{
+    clear: left;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 32px;
+    color: #d4a373;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.img_benefícios{
+   /* width: 20%;
+    float: right;
+    object-fit: cover;
+    padding-left:1000px ;
+    height: 500px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 5px 5px  rgba(0, 0, 0, 0.3);
+    margin-top: 2%;
+    position: absolute;*/
+    width: 202px; /* Defina um tamanho adequado */
+    height: auto; /* Mantém a proporção */
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 80%; /* Adiciona espaçamento entre a imagem e o texto */
+    margin-top: -10%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.Benefíciosprodutos{
+font-size: 27px;
+margin-right: 30px;
+padding: 10px, 15px , 15px, 10px;
+text-align: center;
+width: fit-content;
+margin: auto;
+text-align: left;
+}
