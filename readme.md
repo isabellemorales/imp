@@ -13,7 +13,7 @@ O **imp** é uma marca criada com HTML e CSS, com o objetivo de conectar cliente
 
 - HTML5
 - CSS3
-- Google Fonts (Grostick)
+- DaFont (HastinaFreeFont.otf)
 - Font Awesome (ícones sociais)
 
 ## 💡 Funcionalidades
